@@ -6,9 +6,11 @@ main() {
   var idade = int.parse(input!);
 
   if (idade >= 50) {
-    print("Idoso");
+    print("maior de idade Idoso");
   } else if (idade >= 18) {
-    print("maior de idade!!");
+    print("Adulto maior de idade!!");
+  } else if (idade >= 12) {
+    print("Adolescente");
   } else {
     print("Criança");
   }
